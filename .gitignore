@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Environment files — NEVER commit these
+.env
+**/.env
+
+# Python
+ml-service/venv/
+ml-service/__pycache__/
+ml-service/*.pyc
+**/__pycache__/
+
+# Build outputs
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
